@@ -1,0 +1,147 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 15px; /* Increase font size */
+    color: black; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#profile {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+}
+
+#dashboard {
+    top: 140px;
+    background-color: #f44336; /* Red */
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+
+.bg { 
+    /* The image used */
+    background-image: url("forest-haze-landscape-398112.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+*{ padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: #c4a1a2;
+}
+
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%
+}
+
+.content-wrapper img{
+    width: 100%;
+}
+
+.text-wrapper{ 
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.text-wrapper h1{
+    text-align: center;
+    color:black;
+    font-size: 10vw;
+    font-family: 'galada', cursive;
+}
+
+.text-wrapper h2{
+    text-align: left;
+    color: black;
+    font-size: 4vw;
+    font-family: 'galada', cursive;
+}
+
+.text-wrapper ul{
+    text-align: left;
+    color: black;
+    font-size: 2vw;
+    font-family: 'galada', cursive;
+}
+
+.text-wrapper header{
+    text-align: center;
+    color:black;
+    font-size: 10vw;
+    font-family: 'galada', cursive;
+}
+
+.text-wrapper p{
+    text-align: left;
+    color:black;
+    font-size: 2vw;
+    font-family: 'galada', cursive;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+thead,
+tfoot {
+    border: 1px solid black;
+}
+
+a{
+    color: black;
+} 
+    
