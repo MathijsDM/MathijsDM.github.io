@@ -31,6 +31,11 @@
     background-color: #f44336; /* Red */
 }
 
+#motivatie {
+    top: 200px;
+    background-color: yellow; 
+}
+
 body, html {
     height: 100%;
 }
@@ -59,7 +64,7 @@ body, html {
 
 .bg { 
     /* The image used */
-    background-image: url("forest-haze-landscape-398112.jpg");
+    background-image: url("modern_background.jpg");
 
     /* Full height */
     height: 100%; 
@@ -142,6 +147,6 @@ tfoot {
 }
 
 a{
-    color: black;
+    color: #2196F3;
 } 
     
