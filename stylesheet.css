@@ -36,6 +36,11 @@
     background-color: yellow; 
 }
 
+#beroepsbeeld {
+    top: 260px;
+    background-color: grey; 
+}
+
 body, html {
     height: 100%;
 }
